@@ -13,7 +13,7 @@ const CategoriaModel = connection.define('category',{
     },
     use_in_menu:{
         type: DataTypes.BOOLEAN,
-        defaultValue: 0
+        defaultValue: false
     }
 
 })

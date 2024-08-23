@@ -18,7 +18,7 @@ const ProductImage = connection.define('image-products',{
 
     enabled: {
         type: DataTypes.BOOLEAN,
-        defaultValue: 0
+        defaultValue: false
     },
 
     path:{
